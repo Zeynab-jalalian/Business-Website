@@ -27,3 +27,14 @@
     background: #fff;
     color: rgb(56 70 103);
 }
+.header-top .header-top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-top .header-top-left div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
