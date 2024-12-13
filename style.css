@@ -94,3 +94,10 @@ ul{
         font-size: 11px;
     }
 }
+@media(max-width:250px){
+    .header-top .header-top-right a span {
+        border: 0;
+        margin: 0;
+        font-size: 13px !important;
+    }
+}
