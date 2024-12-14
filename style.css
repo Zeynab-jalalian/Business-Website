@@ -132,3 +132,24 @@ ul{
         font-size: 13px !important;
     }
 }
+@media(max-width:800px){
+    .nav .nav-right ul li a {
+        font-size: 14px;
+    }
+}
+@media(max-width:700px){
+    .nav{
+        flex-direction: column;
+    }
+    .nav .nav-right{
+        order: 1;
+    }
+    .nav .nav-left img{
+        width: 100px;
+    }
+}
+@media(max-width:550px){
+    .nav .nav-right ul {
+        display: none;
+    }
+}
