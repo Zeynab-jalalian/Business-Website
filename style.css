@@ -64,11 +64,31 @@ ul{
 .nav{
     width: 100%;
     height: 50px;
-    padding: 10px;
+    padding: 10px 30px;
     background: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.nav .nav-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .nav-right ul li{
+    margin: 0 10px;
+}
+.nav .nav-right ul li a{
+    color: #262626;
+}
+.nav .nav-right ul li a span{
+    color: rgb(0, 46, 155);
+}
+.nav .nav-right ul li a:hover{
+    text-decoration: underline;
+}
+.nav .nav-right ul li a span:hover{
+    transform: scale(1.4);
 }
 /* Responsive */
 @media(max-width:750px){
