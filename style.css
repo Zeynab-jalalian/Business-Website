@@ -113,12 +113,14 @@ ul {
 .homepage {
     width: 100%;
     padding: 50px;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background: #000;
+    background: url('img/homepage.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .homepage h1 {
