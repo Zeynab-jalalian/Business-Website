@@ -1,16 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
+
 /* header top */
-.header-top{
+.header-top {
     width: 100%;
     height: 50px;
     padding: 10px;
@@ -19,49 +22,58 @@ ul{
     justify-content: space-around;
     align-items: center;
 }
-.header-top .header-top-right{
+
+.header-top .header-top-right {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header-top .header-top-right a span{
+
+.header-top .header-top-right a span {
     color: white;
     border: 1px solid white;
     padding: 5px;
     margin: 0 5px;
 }
-.header-top .header-top-right a:hover span{
+
+.header-top .header-top-right a:hover span {
     background: #fff;
     color: rgb(56 70 103);
 }
-.header-top .header-top-left{
+
+.header-top .header-top-left {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header-top .header-top-left div{
+
+.header-top .header-top-left div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 10px;
 }
-.header-top .header-top-left div a span{
+
+.header-top .header-top-left div a span {
     margin: 0 5px;
     color: white;
     border: 1px solid white;
     padding: 5px;
     border-radius: 3px;
 }
-.header-top .header-top-left div a:hover span{
+
+.header-top .header-top-left div a:hover span {
     background: #fff;
     color: rgb(56 70 103);
 }
-.header-top .header-top-left div p{
+
+.header-top .header-top-left div p {
     color: #fff;
     font-size: 13px;
 }
+
 /* nav */
-.nav{
+.nav {
     width: 100%;
     height: 100%;
     padding: 10px 30px;
@@ -70,26 +82,33 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
-.nav .nav-right ul{
+
+.nav .nav-right ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav .nav-right ul li{
+
+.nav .nav-right ul li {
     margin: 0 10px;
 }
-.nav .nav-right ul li a{
+
+.nav .nav-right ul li a {
     color: #262626;
 }
-.nav .nav-right ul li a span{
+
+.nav .nav-right ul li a span {
     color: rgb(0, 46, 155);
 }
-.nav .nav-right ul li a:hover{
+
+.nav .nav-right ul li a:hover {
     text-decoration: underline;
 }
-.nav .nav-right ul li a span:hover{
+
+.nav .nav-right ul li a span:hover {
     transform: scale(1.4);
 }
+
 /* homepage */
 .homepage {
     width: 100%;
@@ -101,68 +120,88 @@ ul{
     align-items: flex-start;
     background: #000;
 }
-.homepage h1{
 
+.homepage h1 {
+    color: white;
+    max-width: 300px;
+}
+.homepage p{
+    color: whitesmoke;
+    margin: 10px 0;
+    max-width: 500px;
 }
 /* Responsive */
-@media(max-width:750px){
+@media(max-width:750px) {
     .header-top {
         justify-content: space-between;
     }
 }
-@media(max-width:650px){
+
+@media(max-width:650px) {
     .header-top .header-top-left div a span {
         font-size: 13px;
     }
+
     .header-top .header-top-right a span {
         font-size: 13px;
     }
+
     .header-top .header-top-left div p {
         font-size: 11px;
     }
 }
-@media(max-width:500px){
+
+@media(max-width:500px) {
     .header-top .header-top-left div p {
         display: none;
     }
 }
-@media(max-width:350px){
+
+@media(max-width:350px) {
     .header-top .header-top-left div {
-       margin: 0;
+        margin: 0;
     }
 }
-@media(max-width:300px){
+
+@media(max-width:300px) {
     .header-top .header-top-right a span {
         font-size: 11px;
     }
+
     .header-top .header-top-left div a span {
         font-size: 11px;
     }
 }
-@media(max-width:250px){
+
+@media(max-width:250px) {
     .header-top .header-top-right a span {
         border: 0;
         margin: 0;
         font-size: 13px !important;
     }
 }
-@media(max-width:800px){
+
+@media(max-width:800px) {
     .nav .nav-right ul li a {
         font-size: 14px;
     }
 }
-@media(max-width:700px){
-    .nav{
+
+@media(max-width:700px) {
+    .nav {
         flex-direction: column;
     }
-    .nav .nav-right{
+
+    .nav .nav-right {
         order: 1;
     }
-    .nav .nav-left img{
+
+    .nav .nav-left img {
         width: 100px;
     }
 }
-@media(max-width:550px){
+
+@media(max-width:550px) {
     .nav .nav-right ul {
         display: none;
     }
