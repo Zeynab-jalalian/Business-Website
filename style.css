@@ -144,12 +144,20 @@ ul {
     margin: 0 5px;
 }
 .homepage .btn a:nth-child(2){
-    color: #000;
-    background: #fff;
+    color: #ffffff;
+    background: rgb(38 57 103);
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     margin: 0 5px;
+}
+.homepage .btn a:nth-child(1):hover{
+ background-color: rgb(38 57 103);
+ color: white;
+}
+.homepage .btn a:nth-child(2):hover{
+    background: #fff;
+    color: #000;
 }
 /* Responsive */
 @media(max-width:750px) {
