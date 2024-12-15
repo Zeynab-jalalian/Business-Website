@@ -209,6 +209,19 @@ ul {
     .header-top .header-top-left div a span {
         font-size: 11px;
     }
+    .homepage{
+        justify-content: center;
+        align-items: center;
+    }
+    .homepage p{
+        text-align: center;
+    }
+    .homepage h1 {
+        color: white;
+        min-width: 200px;
+        text-align: center;
+        color: #000000;
+    }
 }
 
 @media(max-width:250px) {
@@ -216,6 +229,9 @@ ul {
         border: 0;
         margin: 0;
         font-size: 13px !important;
+    }
+    .homepage h1{
+      font-size: 24px;
     }
 }
 
@@ -245,5 +261,19 @@ ul {
 @media(max-width:550px) {
     .nav .nav-right ul {
         display: none;
+    }
+}
+@media(max-width:360px){
+    .homepage .btn {
+        flex-direction: column;
+        align-items: start;
+    }
+    .homepage .btn a:nth-child(1){
+        margin: 10px 0;
+    }
+}
+@media(max-width:230px){
+    .homepage .btn a:nth-child(1),.homepage .btn a:nth-child(2){
+        font-size: 11px;
     }
 }
