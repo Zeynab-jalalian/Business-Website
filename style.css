@@ -237,6 +237,9 @@ ul {
     .nav .nav-left img {
         width: 100px;
     }
+    .homepage p {
+        max-width: 300px;
+    }
 }
 
 @media(max-width:550px) {
