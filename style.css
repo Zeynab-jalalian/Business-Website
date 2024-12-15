@@ -99,6 +99,10 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    background: #000;
+}
+.homepage h1{
+
 }
 /* Responsive */
 @media(max-width:750px){
