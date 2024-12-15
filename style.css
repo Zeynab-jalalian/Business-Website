@@ -112,7 +112,7 @@ ul {
 /* homepage */
 .homepage {
     width: 100%;
-   padding: 50px;
+    padding: 50px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -127,17 +127,20 @@ ul {
     color: white;
     max-width: 300px;
 }
-.homepage p{
+
+.homepage p {
     color: whitesmoke;
     margin: 10px 0 25px;
     max-width: 500px;
 }
-.homepage .btn{
+
+.homepage .btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.homepage .btn a:nth-child(1){
+
+.homepage .btn a:nth-child(1) {
     color: #000;
     background: #fff;
     padding: 10px;
@@ -145,7 +148,8 @@ ul {
     border-radius: 5px;
     margin: 0 5px;
 }
-.homepage .btn a:nth-child(2){
+
+.homepage .btn a:nth-child(2) {
     color: #ffffff;
     background: rgb(38 57 103);
     padding: 10px;
@@ -153,14 +157,17 @@ ul {
     border-radius: 5px;
     margin: 0 5px;
 }
-.homepage .btn a:nth-child(1):hover{
- background-color: rgb(38 57 103);
- color: white;
+
+.homepage .btn a:nth-child(1):hover {
+    background-color: rgb(38 57 103);
+    color: white;
 }
-.homepage .btn a:nth-child(2):hover{
+
+.homepage .btn a:nth-child(2):hover {
     background: #fff;
     color: #000;
 }
+
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
