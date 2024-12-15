@@ -127,8 +127,21 @@ ul {
 }
 .homepage p{
     color: whitesmoke;
-    margin: 10px 0;
+    margin: 10px 0 25px;
     max-width: 500px;
+}
+.homepage .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepage .btn a:nth-child(1){
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 5px;
 }
 /* Responsive */
 @media(max-width:750px) {
