@@ -296,6 +296,9 @@ main{
     .homepage p {
         max-width: 300px;
     }
+    .boxes {
+        width: 95% !important;
+    }
 }
 
 @media(max-width:550px) {
