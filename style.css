@@ -185,6 +185,16 @@ main{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background: #fff;
 }
+.boxes .box img{
+    object-fit: cover;
+}
+.boxes .box  p{
+    color: #fff;
+    background: rgb(0, 25, 85);
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
