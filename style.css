@@ -167,7 +167,24 @@ ul {
     background: #fff;
     color: #000;
 }
-
+/* main */
+main{
+    position: relative;
+}
+.boxes{
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background: #fff;
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
