@@ -205,6 +205,9 @@ main{
     .header-top {
         justify-content: space-between;
     }
+    .boxes{
+        width: 85%;
+    }
 }
 
 @media(max-width:650px) {
@@ -316,5 +319,10 @@ main{
     .homepage .btn a:nth-child(1),
     .homepage .btn a:nth-child(2) {
         font-size: 11px;
+    }
+}
+@media(max-width:1100px){
+    .boxes{
+        width: 75%;
     }
 }
