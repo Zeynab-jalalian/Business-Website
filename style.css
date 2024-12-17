@@ -215,6 +215,11 @@ main{
 .main .main-left h1{
     margin: 10px 0;
 }
+.main .main-left p{
+    color: #4e4e4e;
+    font-size: 14px;
+    margin: 20px 0;
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
