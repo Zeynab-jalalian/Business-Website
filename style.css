@@ -200,6 +200,14 @@ main{
     font-size: 16px;
     padding: 5px;
 }
+/* div main */
+.main{
+    margin-top: 200px;
+    padding:0 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
