@@ -220,6 +220,15 @@ main{
     font-size: 14px;
     margin: 20px 0;
 }
+.main .main-left a{
+    display: inline-block;
+    color: #ffffff;
+    background: rgb(38 57 103);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px 5px;
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
