@@ -224,10 +224,16 @@ main{
     display: inline-block;
     color: #ffffff;
     background: rgb(38 57 103);
+    border: 1px solid rgb(38 57 103);
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     margin: 20px 5px;
+}
+.main .main-left a:hover{
+ border: 1p solid #000;
+ background: #fff;
+ color: #000;
 }
 /* Responsive */
 @media(max-width:750px) {
