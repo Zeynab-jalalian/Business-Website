@@ -208,6 +208,13 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+.main div{
+    width: 50%;
+    margin: 0 10px;
+}
+.main .main-left h1{
+    margin: 10px 0;
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
