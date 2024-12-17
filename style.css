@@ -219,7 +219,7 @@ main{
     color: #4e4e4e;
     font-size: 14px;
     margin: 20px 0;
-    min-width: 50%;
+    max-width: 400px;
 }
 .main .main-left a{
     display: inline-block;
@@ -375,6 +375,9 @@ main{
     .boxes{
         width: 75%;
     }
+    .main .main-left h1{
+        font-size: 25px;
+    }
 }
 @media(max-width:370px){
     .boxes .box:nth-child(1){
@@ -384,5 +387,10 @@ main{
 @media(max-width:220px){
     .boxes{
         display: none;
+    }
+}
+@media(max-width:850px){
+    .main .main-left h1 {
+        font-size: 23px;
     }
 }
