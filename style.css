@@ -219,7 +219,7 @@ main{
     color: #4e4e4e;
     font-size: 14px;
     margin: 20px 0;
-    max-width: 400px;
+    max-width: 500px;
 }
 .main .main-left a{
     display: inline-block;
@@ -251,6 +251,31 @@ main{
     }
     .boxes{
         width: 85%;
+    }
+    .main {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main .main-right{
+        order: 1;
+    }
+    .main .main-left{
+        order: 2;
+    }
+    .main div {
+        margin: 20px 0;
+    }
+    .main .main-left h1 {
+        text-align: center;
+    }
+    .main .main-left p {
+        text-align: center;
+    }
+    .main .main-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
