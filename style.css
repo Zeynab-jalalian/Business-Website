@@ -297,6 +297,10 @@ main{
     .header-top .header-top-left div p {
         display: none;
     }
+    .main .main-left h1 {
+        font-size: 23px;
+        min-width: 200px;
+    }
 }
 
 @media(max-width:350px) {
@@ -417,5 +421,13 @@ main{
 @media(max-width:850px){
     .main .main-left h1 {
         font-size: 23px;
+    }
+}
+@media(max-width:450px){
+    .main .main-left p {
+        display: none;
+    }
+    .main div{
+        width: 100%;
     }
 }
