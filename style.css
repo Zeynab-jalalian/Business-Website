@@ -236,6 +236,14 @@ main{
  background: #fff;
  color: #000;
 }
+.main .main-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .main-right img{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
