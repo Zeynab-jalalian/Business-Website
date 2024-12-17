@@ -417,6 +417,10 @@ main{
     .boxes{
         display: none;
     }
+    .main{
+        margin-top: 0;
+        padding: 10px;
+    }
 }
 @media(max-width:850px){
     .main .main-left h1 {
@@ -429,5 +433,13 @@ main{
     }
     .main div{
         width: 100%;
+    }
+}
+@media(max-width:270px){
+    .main .main-left h1 {
+        min-width: 150px;
+    }
+    .main .main-left a{
+        text-align: center;
     }
 }
