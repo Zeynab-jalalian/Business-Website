@@ -11,9 +11,11 @@ a {
 ul {
     list-style: none;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 /* header top */
 .header-top {
     width: 100%;
@@ -169,11 +171,13 @@ body{
     background: #fff;
     color: #000;
 }
+
 /* main */
-main{
+main {
     position: relative;
 }
-.boxes{
+
+.boxes {
     width: 50%;
     height: 150px;
     margin: auto;
@@ -187,43 +191,51 @@ main{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background: #fff;
 }
-.boxes .box{
+
+.boxes .box {
     margin: 0 10px;
 }
-.boxes .box img{
+
+.boxes .box img {
     object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.boxes .box  p{
+
+.boxes .box p {
     color: #fff;
     background: rgb(0, 25, 85);
     text-align: center;
     font-size: 16px;
     padding: 5px;
 }
+
 /* div main */
-.main{
+.main {
     margin-top: 200px;
-    padding:0 50px 20px;
+    padding: 0 50px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.main div{
+
+.main div {
     width: 50%;
     margin: 0 10px;
 }
-.main .main-left h1{
+
+.main .main-left h1 {
     margin: 10px 0;
 }
-.main .main-left p{
+
+.main .main-left p {
     color: #4e4e4e;
     font-size: 14px;
     margin: 20px 0;
     max-width: 500px;
 }
-.main .main-left a{
+
+.main .main-left a {
     display: inline-block;
     color: #ffffff;
     background: rgb(38 57 103);
@@ -233,47 +245,64 @@ main{
     border-radius: 5px;
     margin: 20px 5px;
 }
-.main .main-left a:hover{
- border: 1p solid #000;
- background: #fff;
- color: #000;
+
+.main .main-left a:hover {
+    border: 1p solid #000;
+    background: #fff;
+    color: #000;
 }
-.main .main-right{
+
+.main .main-right {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main .main-right img{
+
+.main .main-right img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+/* services */
+.services{
+    width: 100%;
+    padding: 50px;
+    background: #d1d1d1;
 }
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
         justify-content: space-between;
     }
-    .boxes{
+
+    .boxes {
         width: 85%;
     }
+
     .main {
         justify-content: center;
         flex-direction: column;
     }
-    .main .main-right{
+
+    .main .main-right {
         order: 1;
     }
-    .main .main-left{
+
+    .main .main-left {
         order: 2;
     }
+
     .main div {
         margin: 20px 0;
     }
+
     .main .main-left h1 {
         text-align: center;
     }
+
     .main .main-left p {
         text-align: center;
     }
-    .main .main-left{
+
+    .main .main-left {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -299,6 +328,7 @@ main{
     .header-top .header-top-left div p {
         display: none;
     }
+
     .main .main-left h1 {
         font-size: 23px;
         min-width: 200px;
@@ -371,6 +401,7 @@ main{
     .homepage p {
         max-width: 300px;
     }
+
     .boxes {
         width: 95% !important;
     }
@@ -380,7 +411,8 @@ main{
     .nav .nav-right ul {
         display: none;
     }
-    .boxes .box:nth-child(3){
+
+    .boxes .box:nth-child(3) {
         display: none;
     }
 }
@@ -397,51 +429,62 @@ main{
 }
 
 @media(max-width:230px) {
+
     .homepage .btn a:nth-child(1),
     .homepage .btn a:nth-child(2) {
         font-size: 11px;
     }
 }
-@media(max-width:1100px){
-    .boxes{
+
+@media(max-width:1100px) {
+    .boxes {
         width: 75%;
     }
-    .main .main-left h1{
+
+    .main .main-left h1 {
         font-size: 25px;
     }
 }
-@media(max-width:370px){
-    .boxes .box:nth-child(1){
+
+@media(max-width:370px) {
+    .boxes .box:nth-child(1) {
         display: none;
     }
 }
-@media(max-width:220px){
-    .boxes{
+
+@media(max-width:220px) {
+    .boxes {
         display: none;
     }
-    .main{
+
+    .main {
         margin-top: 0;
         padding: 10px;
     }
 }
-@media(max-width:850px){
+
+@media(max-width:850px) {
     .main .main-left h1 {
         font-size: 23px;
     }
 }
-@media(max-width:450px){
+
+@media(max-width:450px) {
     .main .main-left p {
         display: none;
     }
-    .main div{
+
+    .main div {
         width: 100%;
     }
 }
-@media(max-width:270px){
+
+@media(max-width:270px) {
     .main .main-left h1 {
         min-width: 150px;
     }
-    .main .main-left a{
+
+    .main .main-left a {
         text-align: center;
     }
 }
