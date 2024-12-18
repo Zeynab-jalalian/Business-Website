@@ -271,6 +271,13 @@ main {
     text-align: center;
     margin-bottom: 10px;
 }
+.services .s-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
 .services .s-boxes .s-box span{
     color: rgb(0, 18, 119);
     font-size: 20px;
@@ -289,8 +296,9 @@ main {
 .services .s-boxes .s-box{
     background: white;
     padding: 20px;
-    width: calc(25% - 10px);
+    width: calc(25%);
     transition: 0.2s;
+    margin: 20px 10px;
 }
 .services .s-boxes .s-box:hover{
     background: rgb(0, 18, 119);
