@@ -277,7 +277,14 @@ main {
     margin-bottom: 15px;
 }
 .services .s-boxes .s-box h1{
-    
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+.services .s-boxes .s-box p{
+    color: white;
+    font-size: 13px;
+    max-width: 250px;
 }
 /* Responsive */
 @media(max-width:750px) {
