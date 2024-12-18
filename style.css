@@ -296,7 +296,7 @@ main {
 .services .s-boxes .s-box{
     background: white;
     padding: 20px;
-    width: calc(25%);
+   width: 300px;
     transition: 0.2s;
     margin: 20px 10px;
 }
@@ -525,5 +525,20 @@ main {
 
     .main .main-left a {
         text-align: center;
+    }
+}
+@media(max-width:340px){
+    .services .s-boxes .s-box p{
+        display: none;
+    }
+    .services .s-boxes .s-box h1 {
+        min-width: 200px;
+        text-align: center;
+    }
+    .services .s-boxes .s-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
