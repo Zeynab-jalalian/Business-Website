@@ -272,19 +272,31 @@ main {
     margin-bottom: 10px;
 }
 .services .s-boxes .s-box span{
-    color: white;
+    color: rgb(0, 18, 119);
     font-size: 20px;
     margin-bottom: 15px;
 }
 .services .s-boxes .s-box h1{
     font-size: 22px;
-    color: white;
+    color: rgb(0, 18, 119);
     margin-bottom: 10px;
 }
 .services .s-boxes .s-box p{
-    color: white;
+    color: rgb(0, 18, 119);
     font-size: 13px;
     max-width: 250px;
+}
+.services .s-boxes .s-box{
+    background: white;
+    padding: 20px;
+    width: calc(25% - 10px);
+    transition: 0.2s;
+}
+.services .s-boxes .s-box:hover{
+    background: rgb(0, 18, 119);
+}
+.services .s-boxes .s-box:hover span,.services .s-boxes .s-box:hover h1,.services .s-boxes .s-box:hover p{
+    color: #fff;
 }
 /* Responsive */
 @media(max-width:750px) {
