@@ -269,6 +269,7 @@ main {
 }
 .services h3{
     text-align: center;
+    margin-bottom: 10px;
 }
 /* Responsive */
 @media(max-width:750px) {
