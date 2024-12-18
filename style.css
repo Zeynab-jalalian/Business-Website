@@ -267,6 +267,9 @@ main {
     padding: 50px;
     background: #d1d1d1;
 }
+.services h3{
+    text-align: center;
+}
 /* Responsive */
 @media(max-width:750px) {
     .header-top {
