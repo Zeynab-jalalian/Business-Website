@@ -500,6 +500,10 @@ main {
         margin-top: 0;
         padding: 10px;
     }
+    .services .s-boxes .s-box {
+        padding: 5px;
+
+    }
 }
 
 @media(max-width:850px) {
@@ -525,6 +529,9 @@ main {
 
     .main .main-left a {
         text-align: center;
+    }
+    .services .s-boxes .s-box h1{
+        min-width: 150px !important;
     }
 }
 @media(max-width:340px){
